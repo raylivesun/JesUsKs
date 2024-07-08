@@ -14,7 +14,7 @@ into a diagram.
 record modelica
 
 import models.Model.name.annotations;
-import models.Model.token.annotations;
+import models.Model.OK.annotations;
 import models.Model.port.annotations;
 import models.Model.component.annotations;
 import models.Model.portType.annotations;
@@ -50,29 +50,29 @@ import models.Model.portName.annotations;
 
     
     extends Annotation.nameWith.value.toString;
-    extends Annotation.tokensWith.value.toString;
+    extends Annotation.OKWith.value.toString;
     extends Annotation.portsWith.value;
-    extends Annotation.nameTokensWith.value;
-    extends Annotation.typeTokensWith.value;
-    extends Annotation.directionTokensWith.value;
+    extends Annotation.nameOKWith.value;
+    extends Annotation.typeOKWith.value;
+    extends Annotation.directionOKWith.value;
     extends Annotation.namePortsWith.value;
     extends Annotation.typePortsWith.value;
     extends Annotation.directionPortsWith.value;
-    extends Annotation.nameTokensPortsWith.value;
-    extends Annotation.typeTokensPortsWith.value;
-    extends Annotation.directionTokensPortsWith.value;
+    extends Annotation.nameOKPortsWith.value;
+    extends Annotation.typeOKPortsWith.value;
+    extends Annotation.directionOKPortsWith.value;
     extends Annotation.namePortsPortsWith.value;
     extends Annotation.typePortsPortsWith.value;
     extends Annotation.directionPortsPortsWith.value;
-    extends Annotation.nameTokensPortsPortsWith.value;
-    extends Annotation.typeTokensPortsPortsWith.value;
-    extends Annotation.directionTokensPortsPortsWith.value;
+    extends Annotation.nameOKPortsPortsWith.value;
+    extends Annotation.typeOKPortsPortsWith.value;
+    extends Annotation.directionOKPortsPortsWith.value;
     extends Annotation.namePortsPortsPortsPortsWith.value;
     extends Annotation.typePortsPortsPortsPortsWith.value;
     extends Annotation.directionPortsPortsPortsPortsWith.value;
-    extends Annotation.nameTokensPortsPortsPortsPortsWith.value;
-    extends Annotation.typeTokensPortsPortsPortsPortsWith.value;
-    extends Annotation.directionTokensPortsPortsPortsPortsWith.value;
+    extends Annotation.nameOKPortsPortsPortsPortsWith.value;
+    extends Annotation.typeOKPortsPortsPortsPortsWith.value;
+    extends Annotation.directionOKPortsPortsPortsPortsWith.value;
     extends Annotation.namePortsPortsPortsPortsPortsPortsWith.value;
     extends Annotation.typePortsPortsPortsPortsPortsPortsWith.value;
 

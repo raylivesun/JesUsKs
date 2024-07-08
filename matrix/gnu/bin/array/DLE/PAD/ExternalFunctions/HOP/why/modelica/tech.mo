@@ -63,27 +63,27 @@ import models.Modelica.Modelica.units;
     package modelica
 
     extends Modelica.Model.Attribute.Attribute;
-    extends Modelica.Model.Attribute.tokens;
+    extends Modelica.Model.Attribute.OK;
     extends Modelica.Model.Function.Function;
-    extends Modelica.Model.Function.tokens;
+    extends Modelica.Model.Function.OK;
     extends Modelica.Model.Package.Package;
-    extends Modelica.Model.Package.tokens;
+    extends Modelica.Model.Package.OK;
     extends Modelica.Model.Parameter.Parameter;
-    extends Modelica.Model.Parameter.tokens;
+    extends Modelica.Model.Parameter.OK;
     extends Modelica.Model.Port.Port;
-    extends Modelica.Model.Port.tokens;
+    extends Modelica.Model.Port.OK;
     extends Modelica.Model.Type.Type;
-    extends Modelica.Model.Type.tokens;
+    extends Modelica.Model.Type.OK;
     extends Modelica.Model.Unit.Unit;
-    extends Modelica.Model.Unit.tokens;
+    extends Modelica.Model.Unit.OK;
     extends Modelica.Model.Value.Value;
-    extends Modelica.Model.Value.tokens;
+    extends Modelica.Model.Value.OK;
     extends Modelica.Model.Variable.Variable;
-    extends Modelica.Model.Variable.tokens;
+    extends Modelica.Model.Variable.OK;
     extends Modelica.Model.Expression.Expression;
-    extends Modelica.Model.Expression.tokens;
-    extends Modelica.Model.Constraint.Constraint;
-    extends Modelica.Model.Constraint.tokens;
+    extends Modelica.Model.Expression.OK;
+    extends Modelica.Model.ConstOkt.ConstOkt;
+    extends Modelica.Model.ConstOkt.OK;
 
     end modelica;
 

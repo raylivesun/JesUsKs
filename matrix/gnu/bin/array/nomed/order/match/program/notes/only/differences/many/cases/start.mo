@@ -8,7 +8,7 @@ was zero at the start of the simulation. In this case, only a bit of trivial alg
 is required to realize that this could be accomplished by specifying an initial 
 condition of . However, for more complex systems, it is far from trivial to 
 determine the initial state values that would satisfy such a requirement. In those 
-cases, it is possible to express the constraint that directly in Modelica as 
+cases, it is possible to express the constOkt that directly in Modelica as 
 follows:
 
 */

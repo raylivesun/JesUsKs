@@ -110,9 +110,9 @@ model PolynomialEvaluation "Description"
     extends polynomial.min.Events;
     extends polynomial.min.Functions;
     extends polynomial.min.Variables;
-    extends polynomial.min.Constraints;
+    extends polynomial.min.ConstOkts;
     extends polynomial.min.Objective;
-    extends polynomial.min.Constraints;
+    extends polynomial.min.ConstOkts;
     extends polynomial.min.Objective;
     
     // Define a function that returns the value of the polynomial
@@ -120,7 +120,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.mixed.Events;
     extends polynomial.mixed.Functions;
     extends polynomial.mixed.Variables;
-    extends polynomial.mixed.Constraints;
+    extends polynomial.mixed.ConstOkts;
     extends polynomial.mixed.Objective;
     
     // Define a function that returns the value of the polynomial
@@ -128,7 +128,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.split.Events;
     extends polynomial.split.Functions;
     extends polynomial.split.Variables;
-    extends polynomial.split.Constraints;
+    extends polynomial.split.ConstOkts;
     extends polynomial.split.Objective;
 
 
@@ -137,7 +137,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.button.Events;
     extends polynomial.button.Functions;
     extends polynomial.button.Variables;
-    extends polynomial.button.Constraints;
+    extends polynomial.button.ConstOkts;
     extends polynomial.button.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -145,7 +145,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.linear.Events;
     extends polynomial.linear.Functions;
     extends polynomial.linear.Variables;
-    extends polynomial.linear.Constraints;
+    extends polynomial.linear.ConstOkts;
     extends polynomial.linear.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -153,7 +153,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.quadratic.Events;
     extends polynomial.quadratic.Functions;
     extends polynomial.quadratic.Variables;
-    extends polynomial.quadratic.Constraints;
+    extends polynomial.quadratic.ConstOkts;
     extends polynomial.quadratic.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -161,7 +161,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.cubic.Events;
     extends polynomial.cubic.Functions;
     extends polynomial.cubic.Variables;
-    extends polynomial.cubic.Constraints;
+    extends polynomial.cubic.ConstOkts;
     extends polynomial.cubic.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -169,7 +169,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.squares.Events;
     extends polynomial.squares.Functions;
     extends polynomial.squares.Variables;
-    extends polynomial.squares.Constraints;
+    extends polynomial.squares.ConstOkts;
     extends polynomial.squares.Objective;
 
 
@@ -178,7 +178,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.cube.Events;
     extends polynomial.cube.Functions;
     extends polynomial.cube.Variables;
-    extends polynomial.cube.Constraints;
+    extends polynomial.cube.ConstOkts;
     extends polynomial.cube.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -186,7 +186,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.values.Events;
     extends polynomial.values.Functions;
     extends polynomial.values.Variables;
-    extends polynomial.values.Constraints;
+    extends polynomial.values.ConstOkts;
     extends polynomial.values.Objective;
 
 
@@ -200,7 +200,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.max.Events;
     extends polynomial.max.Functions;
     extends polynomial.max.Variables;
-    extends polynomial.max.Constraints;
+    extends polynomial.max.ConstOkts;
     extends polynomial.max.Objective;
     
     // Define a function that returns the value of the polynomial
@@ -208,7 +208,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.mixed.Events;
     extends polynomial.mixed.Functions;
     extends polynomial.mixed.Variables;
-    extends polynomial.mixed.Constraints;
+    extends polynomial.mixed.ConstOkts;
     extends polynomial.mixed.Objective;
     
     // Define a function that returns the value of the polynomial
@@ -216,7 +216,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.split.Events;
     extends polynomial.split.Functions;
     extends polynomial.split.Variables;
-    extends polynomial.split.Constraints;
+    extends polynomial.split.ConstOkts;
     extends polynomial.split.Objective;
 
 
@@ -225,7 +225,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.button.Events;
     extends polynomial.button.Functions;
     extends polynomial.button.Variables;
-    extends polynomial.button.Constraints;
+    extends polynomial.button.ConstOkts;
     extends polynomial.button.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -233,7 +233,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.linear.Events;
     extends polynomial.linear.Functions;
     extends polynomial.linear.Variables;
-    extends polynomial.linear.Constraints;
+    extends polynomial.linear.ConstOkts;
     extends polynomial.linear.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -241,7 +241,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.quadratic.Events;
     extends polynomial.quadratic.Functions;
     extends polynomial.quadratic.Variables;
-    extends polynomial.quadratic.Constraints;
+    extends polynomial.quadratic.ConstOkts;
     extends polynomial.quadratic.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -249,7 +249,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.cubic.Events;
     extends polynomial.cubic.Functions;
     extends polynomial.cubic.Variables;
-    extends polynomial.cubic.Constraints;
+    extends polynomial.cubic.ConstOkts;
     extends polynomial.cubic.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -257,7 +257,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.squares.Events;
     extends polynomial.squares.Functions;
     extends polynomial.squares.Variables;
-    extends polynomial.squares.Constraints;
+    extends polynomial.squares.ConstOkts;
     extends polynomial.squares.Objective;
 
 
@@ -266,7 +266,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.cube.Events;
     extends polynomial.cube.Functions;
     extends polynomial.cube.Variables;
-    extends polynomial.cube.Constraints;
+    extends polynomial.cube.ConstOkts;
     extends polynomial.cube.Objective;
 
     // Define a function that returns the value of the polynomial
@@ -274,7 +274,7 @@ model PolynomialEvaluation "Description"
     extends polynomial.values.Events;
     extends polynomial.values.Functions;
     extends polynomial.values.Variables;
-    extends polynomial.values.Constraints;
+    extends polynomial.values.ConstOkts;
     extends polynomial.values.Objective;
 
 

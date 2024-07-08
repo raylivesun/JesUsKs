@@ -40,10 +40,10 @@
              <!-- e.g connection of layout local develop -->
           </develop>
           <rights event="topic">
-             <!-- e.g call to topic of tokens of connections -->     
+             <!-- e.g call to topic of OK of connections -->     
           </rights>
           <left event="topic">
-            <!-- e.g call to topic of tokens of connections -->     
+            <!-- e.g call to topic of OK of connections -->     
           </left>
           <documents id="fill-gates" event="topic" local="adrress">
                <fill-gates topic="ipc">
@@ -90,10 +90,10 @@
           </quiz>
           <current id="consumer-sentiment" address="local" path="local">
               <consumer-sentiment tips="debugger-files">
-                   <!-- e.g connections to topic tokens layout tile cating --> 
+                   <!-- e.g connections to topic OK layout tile cating --> 
               </consumer-sentiment>
               <local layout="webfiles">
-                  <!-- e.g connections to topic tokens layout right and left -->
+                  <!-- e.g connections to topic OK layout right and left -->
               </local>
               <path id="international">
                  <!-- e.g connections to balues topic and stream local path --> 
@@ -103,7 +103,7 @@
               <business images="itself" layout="main">
                   <!-- e.g connections to layout itsel main-->
               </business>
-              <support-center tokens="topic" nick="cat" rules="gates">
+              <support-center OK="topic" nick="cat" rules="gates">
                   <!-- e.g connections to layout cat views it layout -->  
               </support-center>
               <handle local="protected">

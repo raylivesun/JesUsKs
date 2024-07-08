@@ -37,15 +37,15 @@ model translation "Description"
         Real parameterQuantity = 0.4;
         Real parameterTimeDerivative = 0.4;
 
-        // Constraints
-        Real constraintQuantity = 0.4;
-        Real constraintTimeDerivative = 0.4;
-        Real constraintOpacity = 0.4;
-        Real constraintTemperature = 0.4;
-        Real constraintHeatFlowRate = 0.4;
-        Real constraintHeatFlux = 0.4;
-        Real constraintHeatSource = 0.4;
-        Real constraintHeatSink = 0.4;
+        // ConstOkts
+        Real constOktQuantity = 0.4;
+        Real constOktTimeDerivative = 0.4;
+        Real constOktOpacity = 0.4;
+        Real constOktTemperature = 0.4;
+        Real constOktHeatFlowRate = 0.4;
+        Real constOktHeatFlux = 0.4;
+        Real constOktHeatSource = 0.4;
+        Real constOktHeatSink = 0.4;
 
 
     end HeatFlowRate;

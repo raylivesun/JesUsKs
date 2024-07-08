@@ -54,51 +54,51 @@ superSample(u,s) 	A clock that samples s times as fast as the clock used to samp
 Note that the Clock constructor function is overloaded (i.e., can take different arguments). It is worth reiterating that the synchronous clock features in Modelica are relatively new. As such, they are not yet supported by all Modelica compilers. To learn more about these synchronous features and their applications see [Elmqvist] and/or the Modelica Specification, version 3.3 or later.
 
 */
-record tokensTopics
+record OKTopics
 
-import Model.tokens.tokens;
-import Model.tokens.token;
-import Model.tokens.tokenList;
-import Model.tokens.topic;
-import Model.tokens.topicName;
-import Model.tokens.topicType;
-import Model.tokens.topicValue;
-import Model.tokens.topicValueName;
-import Model.tokens.topicValueExpression;
-import Model.tokens.topicValueExpressionName;
+import Model.OK.OK;
+import Model.OK.OK;
+import Model.OK.OKList;
+import Model.OK.topic;
+import Model.OK.topicName;
+import Model.OK.topicType;
+import Model.OK.topicValue;
+import Model.OK.topicValueName;
+import Model.OK.topicValueExpression;
+import Model.OK.topicValueExpressionName;
 
 
-    String tokenList = "tokens";
-    String token = "token";
-    String tokenList = "tokenList";
+    String OKList = "OK";
+    String OK = "OK";
+    String OKList = "OKList";
     String topic = "topic";
     String topicName = "topicName";
 
 
 
-    String token = "topic";
-    String token = "topicName";
-    String token = "topicType";
-    String token = "topicValue";
-    String token = "topicValueName";
-    String token = "topicValueExpression";
-    String token = "topicValueExpressionName";
+    String OK = "topic";
+    String OK = "topicName";
+    String OK = "topicType";
+    String OK = "topicValue";
+    String OK = "topicValueName";
+    String OK = "topicValueExpression";
+    String OK = "topicValueExpressionName";
     
 
-package tokenDescriptions "Description"
+package OKDescriptions "Description"
     
-    extends Model.tokens.tokenDescriptions;
-    extends Model.tokens.tokenDescriptions;
-    extends Model.tokens.token;
-    extends Model.tokens.tokenList;
-    extends Model.tokens.topic;
-    extends Model.tokens.topicName;
-    extends Model.tokens.topicType;
-    extends Model.tokens.topicValue;
-    extends Model.tokens.topicValueName;
-    extends Model.tokens.topicValueExpression;
-    extends Model.tokens.topicValueExpressionName;
-end tokenDescriptions;
+    extends Model.OK.OKDescriptions;
+    extends Model.OK.OKDescriptions;
+    extends Model.OK.OK;
+    extends Model.OK.OKList;
+    extends Model.OK.topic;
+    extends Model.OK.topicName;
+    extends Model.OK.topicType;
+    extends Model.OK.topicValue;
+    extends Model.OK.topicValueName;
+    extends Model.OK.topicValueExpression;
+    extends Model.OK.topicValueExpressionName;
+end OKDescriptions;
 
 
-end tokensTopics;
+end OKTopics;

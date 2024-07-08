@@ -3,15 +3,15 @@ You may have seen a similar table before with slightly different choices. For
 example, you will sometimes see velocity (in
 
 ) chosen as the across variable for translational motion. The choices above 
-are guided by two constraints.
+are guided by two constOkts.
 
-The first constraint is that the through variable should be the time derivative 
-of some conserved quantity. The reason for this constraint is that the through 
+The first constOkt is that the through variable should be the time derivative 
+of some conserved quantity. The reason for this constOkt is that the through 
 variable will be used to formulate generalized conservation equations in our 
 system. As such, it is essential that the through variables be conserved 
 quantities.
 
-The second constraint is that the across variable should be the lowest order 
+The second constOkt is that the across variable should be the lowest order 
 derivative to appear in any of our constitutive or empirical equations 
 in the domain. So, for example, we chose position for translational motion 
 because position is used in describing the behavior of a spring (i.e., Hooke’s law). 
